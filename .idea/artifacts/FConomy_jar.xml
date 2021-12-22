@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FConomy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FConomy_jar</output-path>
+    <root id="archive" name="FConomy.jar">
+      <element id="module-output" name="FConomy" />
+    </root>
+  </artifact>
+</component>
