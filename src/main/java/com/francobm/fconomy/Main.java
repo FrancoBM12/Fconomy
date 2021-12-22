@@ -33,9 +33,6 @@ public class Main extends JavaPlugin {
         if(Bukkit.getPluginManager().getPlugin("Vault") != null){
             vaultProvider = new VaultProvider(this).setup();
         }
-        if(Bukkit.getPluginManager().getPlugin("MVdWPlaceholderAPI") != null){
-            new hookMVdWPlaceholderAPI(this);
-        }
         if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null){
             new hookPlaceholderAPI(this).register();
         }
